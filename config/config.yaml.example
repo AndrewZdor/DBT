@@ -1,0 +1,31 @@
+#===========
+# Sybase
+#===========
+
+adapter: SybaseASADBAdapter
+ServiceName: teploservice
+DBFolder: D:\Data\SybaseASA
+DBFile: teplograd.db
+
+dbisql_10_path: C:\\Program Files\\SQL Anywhere 10\\win32\\
+dbisql_11_path: C:\\Program Files\\SQL Anywhere 11\\Bin32\\
+
+#===========
+# Postgres
+#===========
+
+adapter: PostgresDBAdapter
+database: teplograd
+username: tnd
+password: letmecomein
+host: localhost
+port: 5432
+encoding: utf8
+service_name: postgresql-8.4
+
+PG_HOME: C:\Programs\PostgreSQL\8.4
+PGDATA: C:\Programs\PostgreSQL\8.4\data
+dump_file: D:\Work\Shara\teplograd_pg.dmp
+db_archive_file: teplograd.rar
+
+winrar: "C:\Program Files\WinRAR\RAR.exe"

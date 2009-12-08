@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.ui.externaltools.ProgramLaunchConfigurationType">
+<stringAttribute key="org.eclipse.debug.ui.ATTR_CONSOLE_ENCODING" value="UTF-8"/>
+<stringAttribute key="org.eclipse.ui.externaltools.ATTR_LOCATION" value="${env_var:RUBY_HOME}/bin/rake.bat"/>
+<stringAttribute key="org.eclipse.ui.externaltools.ATTR_TOOL_ARGUMENTS" value="db:migrate:file project_loc=${project_loc} default_project_loc=${workspace_loc:/TeplogradPG}"/>
+<stringAttribute key="org.eclipse.ui.externaltools.ATTR_WORKING_DIRECTORY" value="${workspace_loc:/DBT}"/>
+</launchConfiguration>

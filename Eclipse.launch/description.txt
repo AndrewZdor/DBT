@@ -1,0 +1,7 @@
+Full db rebuild cycle:
+1) Archive.restore
+2) db.upgrade
+    2a) db.migrate
+    2b) db.seed
+3) db.proc.create
+4) db.view.create
